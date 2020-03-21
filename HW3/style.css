@@ -1,0 +1,26 @@
+.square{
+    background-image: url('square2.png');
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+}
+
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+}
+
+.mole{
+    background-image: url('mole4.png');
+}
+
+.splat{
+    background-image: url('splat.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
